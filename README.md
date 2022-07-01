@@ -6,18 +6,27 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
+  
+  <a>
+    <img src="Images/nlp.png" alt="Logo" width="100" height="80">
+  </a>
+  
   <h1 align="center">Duplicate Question Finder</h3>
+  <p align="center">
+    A problem that has a very vast usecase !
+    <br />
+    <strong>Explore the docs !</strong>
+    <br />
+    <br />
 </div>
 
 
 ## About The Project
 
-![ScreenShot](https://github.com/Sanyam-oss/Online-Near-Duplicate-Detection/blob/main/Images/full.png)
+Designed binary classification model, which given two questions, predicts whether they are semantically equivalent or not and then tag them as duplicates or non-duplicates respectively. 
 
-
-Designed binary classification model, which given two questions, predicts whether they are semantically equivalent or not and then tag them as duplicates or non-duplicates respectively. Used Streamlit application to create a minimal ui for the same hosted it on a local server. 
+Used Streamlit application to create a minimal UI for the same hosted it on a local server. 
 
 Two questions can be said as duplicates if they can be adequatily answered by the exact same answer. 
 
@@ -39,8 +48,9 @@ The key feature of Universal Sentence Encoder(USE) is that we can use it for Mul
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Few more examples
+## Few Examples
 
+![ScreenShot](https://github.com/Sanyam-oss/Online-Near-Duplicate-Detection/blob/main/Images/full.png)
 ![ScreenShot](https://github.com/Sanyam-oss/Online-Near-Duplicate-Detection/blob/main/Images/non-duplicate.png)
 ![ScreenShot](https://github.com/Sanyam-oss/Online-Near-Duplicate-Detection/blob/main/Images/duplicate.png)
 
