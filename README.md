@@ -28,7 +28,7 @@ Designed binary classification model, which given two questions, predicts whethe
 
 Used Streamlit application to create a minimal UI for the same hosted it on a local server. 
 
-Two questions can be said as duplicates if they can be adequatily answered by the exact same answer. 
+`Two questions can be said as duplicates if they can be adequatily answered by the exact same answer.`
 
 ### Dataset : Quora question dataset
 
