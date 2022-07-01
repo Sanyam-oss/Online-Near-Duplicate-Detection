@@ -21,9 +21,9 @@ Designed binary classification model, which given two questions, predicts whethe
 
 Two questions can be said as duplicates if they can be adequatily answered by the exact same answer. 
 
-### Dataset : `Quora question dataset`
+### Dataset : Quora question dataset
 
-Was able to achieve an accuracy of 82.28% using some featuring engineering(length based features, character based and word based distance measures, fuzzy features), Universal Sentence Encoder(USE) to generate questions embeddings and sklearn Random forest model.
+Was able to achieve an accuracy of `82.28%` using some featuring engineering(length based features, character based and word based distance measures, fuzzy features), Universal Sentence Encoder(USE) to generate questions embeddings and sklearn Random forest model.
 
 The key feature of Universal Sentence Encoder(USE) is that we can use it for Multi-task learning. And since in quora dataset the questions belonged to a wide range of topic it was a good choice. 
 
