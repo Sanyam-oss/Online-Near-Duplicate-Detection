@@ -23,7 +23,7 @@ Two questions can be said as duplicates if they can be adequatily answered by th
 
 ### Dataset : Quora question dataset
 
-Was able to achieve an accuracy of `82.28%` using some featuring engineering(length based features, character based and word based distance measures, fuzzy features), Universal Sentence Encoder(USE) to generate questions embeddings and sklearn Random forest model.
+Was able to achieve an accuracy of `82.28 %` using some featuring engineering(length based features, character based and word based distance measures, fuzzy features), Universal Sentence Encoder(USE) to generate questions embeddings and sklearn Random forest model.
 
 The key feature of Universal Sentence Encoder(USE) is that we can use it for Multi-task learning. And since in quora dataset the questions belonged to a wide range of topic it was a good choice. 
 
@@ -52,8 +52,8 @@ The key feature of Universal Sentence Encoder(USE) is that we can use it for Mul
 
 ### Acknowledgment
 
-Kaggle Dataset : https://www.kaggle.com/competitions/quora-question-pairs/
-Fuzzy features : https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
-Sentence Embeddings : https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/
-Nice Article : https://medium.springboard.com/identifying-duplicate-questions-a-machine-learning-case-study-37117723844
-Streamlit Resouce : https://towardsdatascience.com/streamlit-hands-on-from-zero-to-your-first-awesome-web-app-2c28f9f4e214
+* [Kaggle Dataset](https://www.kaggle.com/competitions/quora-question-pairs/)
+* [Fuzzy features](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
+* [Sentence Embeddings](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
+* [Nice Article](https://medium.springboard.com/identifying-duplicate-questions-a-machine-learning-case-study-37117723844)
+* [Streamlit Resouce](https://towardsdatascience.com/streamlit-hands-on-from-zero-to-your-first-awesome-web-app-2c28f9f4e214)
